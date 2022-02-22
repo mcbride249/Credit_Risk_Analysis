@@ -10,11 +10,11 @@
 
 ## **Resources**
 
--Data Source: challenge_schema; Amazon_Reviews_ETL_starter_code
+-Data Source: LoanStats_2019Q1.
 
--Software: Python 3.7.10, Visual Studio Code, 1.38.1, pgAdmin 4, colab.research.google.com, aws.amazon.com.
+-Software: Python 3.7.10, Visual Studio Code 1.64.2, Jupyter Notebook.
 
--Resources: https://colab.research.google.com/notebooks/welcome.ipynb, stackoverflow.com, https://spark.apache.org/docs/latest/api/python/.
+-Resources: https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html, https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html, https://towardsdatascience.com/machine-learning-target-feature-label-imbalance-problem-and-solutions-98c5ae89ad0, https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html, https://scikit-learn.org/stable/modules/linear_model.html, https://readthedocs.org/.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -22,18 +22,24 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Deliverable 1 
+## **Deliverable 1 - Use Resampling Models to Predict Credit Risk**  
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Deliverable 2 - 
+## **Deliverable 2 - Use the SMOTEENN algorithm to Predict Credit Risk**
 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Deliverable 3 - 
+## **Deliverable 3 - Use Ensemble Classifiers to Predict Credit Risk**
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Deliverable 4 - Written Report on the Credit Risk Analysis**
 
 ## **Purpose**
 
