@@ -43,8 +43,7 @@ The purpose of this project is to assist Fastlending, a peer-to-peer lending ser
 
 ## **Purpose**
 
-
-
+The purpose of this challenge was to use machine learning to assist LendingClub, another peer-to-peer lending services company, to determine credit card risk. This challenge called for us to analyze a credit card dataset using a number of techniques and algorithms including oversampling the data using the “RandomOverSampler” and “SMOTE” algorithms, undersample the data using the “ClusterCentroids” algorithm, and use combinatorial approach of over and undersampling the data using the “SMOTEEN” algorithm. Finally, this project involved comparing two machine learning modules that reduce bias, the “BalancedRandomForestClassifier” and the “EasyEnsembleClassifier”, and evaluating their performance to predict credit risk.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
