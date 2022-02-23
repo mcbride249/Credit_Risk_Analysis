@@ -84,48 +84,75 @@ The purpose of this challenge was to use machine learning to assist LendingClub,
 **Accuracy Score**
 
 -Naïve Random Oversampling Accuracy Score: 0.6405 = 64%
+
 -SMOTE Oversampling Accuracy Score: 0.6585 = 66% 
+
 -Undersampling Accuracy Score: 0.6585 = 66%
+
 -Combination (Over and Under) Sampling Accuracy Score: 0.5442 = 54%
+
 -Balanced Random Forest Classifier Accuracy Score: 0.7959 = 80%
+
 -Easy Ensemble AdaBoost Classifier Accuracy Score: 0.9197 = 91%
+
 
 
 **Precision Score**
 
 -Naïve Random Oversampling Precision Score: 99%
+
 -SMOTE Oversampling Precision Score: 99%
+
 -Undersampling Precision Score: 99%
+
 -Combination (Over and Under) Sampling Precision Score: 99%
+
 -Balanced Random Forest Classifier Precision Score: 99%
+
 -Easy Ensemble AdaBoost Classifier Precision Score: 99%
+
 
 
 **Recall (Sensitivity) Score**
 
 -Naïve Random Oversampling Sensitivity Score: 0.56 = 56%
+
 -SMOTE Oversampling Sensitivity Score: 0.69 = 69%
+
 -Undersampling Sensitivity Score: 0.40 = 40%
+
 -Combination (Over and Under) Sampling Sensitivity Score: 0.57 = 57%
+
 -Balanced Random Forest Classifier Sensitivity Score: 0.91 = 91%
+
 -Easy Ensemble AdaBoost Classifier Sensitivity Score: 0.94 = 94%
+
 
 
 **F1 Score**
 
 -Naïve Random Oversampling F1 Score: 0.71 = 71%
+
 -SMOTE Oversampling F1 Score: 0.81 = 81%
+
 -Undersampling F1 Score: 0.56 = 56%
+
 -Combination (Over and Under) Sampling F1 Score: 0.72= 72%
+
 -Balanced Random Forest Classifier F1 Score: 0.95 = 95%
+
 -Easy Ensemble AdaBoost Classifier F1 Score: 0.97 = 97%
+
 
 
 **Definitions and Calculations of Scores**
 
 Precision: Precision = TP/(TP + FP) Precision is a measure of how reliable a positive classification is.
+
 Sensitivity = TP/(TP + FN) Sensitivity is a measure of the probability of a positive test, conditioned on truly having the condition.
+
 F1 = 2(Precision * Sensitivity)/(Precision + Sensitivity) A pronounced imbalance between sensitivity and precision will yield a low F1 score.
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
