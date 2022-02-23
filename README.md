@@ -81,13 +81,61 @@ The purpose of this challenge was to use machine learning to assist LendingClub,
 
 ## **Results**
 
+**Accuracy Score**
+
+-Naïve Random Oversampling Accuracy Score: 0.6405 = 64%
+-SMOTE Oversampling Accuracy Score: 0.6585 = 66% 
+-Undersampling Accuracy Score: 0.6585 = 66%
+-Combination (Over and Under) Sampling Accuracy Score: 0.5442 = 54%
+-Balanced Random Forest Classifier Accuracy Score: 0.7959 = 80%
+-Easy Ensemble AdaBoost Classifier Accuracy Score: 0.9197 = 91%
 
 
+**Precision Score**
+
+-Naïve Random Oversampling Precision Score: 99%
+-SMOTE Oversampling Precision Score: 99%
+-Undersampling Precision Score: 99%
+-Combination (Over and Under) Sampling Precision Score: 99%
+-Balanced Random Forest Classifier Precision Score: 99%
+-Easy Ensemble AdaBoost Classifier Precision Score: 99%
 
 
+**Recall (Sensitivity) Score**
+
+-Naïve Random Oversampling Sensitivity Score: 0.56 = 56%
+-SMOTE Oversampling Sensitivity Score: 0.69 = 69%
+-Undersampling Sensitivity Score: 0.40 = 40%
+-Combination (Over and Under) Sampling Sensitivity Score: 0.57 = 57%
+-Balanced Random Forest Classifier Sensitivity Score: 0.91 = 91%
+-Easy Ensemble AdaBoost Classifier Sensitivity Score: 0.94 = 94%
+
+
+**F1 Score**
+
+-Naïve Random Oversampling F1 Score: 0.71 = 71%
+-SMOTE Oversampling F1 Score: 0.81 = 81%
+-Undersampling F1 Score: 0.56 = 56%
+-Combination (Over and Under) Sampling F1 Score: 0.72= 72%
+-Balanced Random Forest Classifier F1 Score: 0.95 = 95%
+-Easy Ensemble AdaBoost Classifier F1 Score: 0.97 = 97%
+
+
+**Definitions and Calculations of Scores**
+
+Precision: Precision = TP/(TP + FP) Precision is a measure of how reliable a positive classification is.
+Sensitivity = TP/(TP + FN) Sensitivity is a measure of the probability of a positive test, conditioned on truly having the condition.
+F1 = 2(Precision * Sensitivity)/(Precision + Sensitivity) A pronounced imbalance between sensitivity and precision will yield a low F1 score.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Summary**
 
+Based on the above accuracy scores, we can see that AdaBoost Classifier machine learning model had the highest rate of accuracy with the ability to predict the correct values 91% of the time. Taken individually, the resampling models had similar accuracy scores falling between 64% and 66%, with the Smote oversampling and the undersampling techniques actually receiving the same accuracy score. While this may lead one to think that the combination of the two methods for testing would lead to a similar accuracy, we can see that this is not the case, with the combination machine learning model having the lowest accuracy score of all six learning models with a score of 54%. While there is not enough information to clearly state why the combination model had such a low score compared to the other models, we can speculate that a potential reason was due to the data being manipulated to the point where it was no longer accurate to the actual population. Based on these scores, the recommended learning models based on accuracy alone, would be Ensemble Classifiers, more specifically the AdaBoost Classifier machine learning model. 
+
+The precision scores for all six machine learning models yielded the same precision score of 99%. This means that machine learning models can be relied upon to likely predict a positive classification 99% of the time. However, the precision score alone can tell us very little, and it must be coupled with the sensitivity of the score. The sensitivity scores effectively tell us how reliable in our prediction our tests are, that is to say, how fine-tuned or the probability of a positive test, conditioned on truly having the condition. Based on the above scores, it is evident Ensemble Classifiers were better tuned to correctly predict credit risk potential. The Balanced Random Forest Classifier had a recall score of 91%, while the Easy Ensemble AdaBoost Classifier had a recall score of 94%, once again ranking it as the most effective machine learning models for prediction. Compared to the resampling models, which had significantly lower scores, particularly the undersampling method which had the lowest recall score of 40%, it is evident that best machine learning model to be used based on sensitivity is the Easy Ensemble AdaBoost Classifier. 
+
+The F1 scores of each model effectively tell us is there is a pronounced imbalance between sensitivity and precision; a pronounced imbalanced will yield a low F1 score. Based on this, we can again see that resampling methods fall short compared to the Ensemble Classifier machine learning models, with the undersampling technique having the lowest F1 score of 0.56 and with the Easy Ensemble AdaBoost Classifier having the largest F1 score of 0.97, thereby demonstrating the least disparity between sensitivity and precision. 
+
+Based on the results and the subsequent analysis of the data, it is my recommendation that the Easy Ensemble AdaBoost Classifier machine learning model be adopted for use in predicting credit risk. It consistently had the highest scores, particularly in accuracy, precision, and sensitivity, and thus correctly made the correct predictions compared to the other models. 
 
