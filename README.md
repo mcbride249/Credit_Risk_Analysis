@@ -56,6 +56,16 @@ https://github.com/mcbride249/Credit_Risk_Analysis/blob/main/Images/Deliverable%
 
 ## **Deliverable 3 - Use Ensemble Classifiers to Predict Credit Risk**
 
+## **Balanced Random Forest Classifier**
+
+![Deliverable 3 - Balanced Random Forest Classifier](https://user-images.githubusercontent.com/92111396/155334944-445916b0-ec1d-4c5a-a6cf-292d41e2b201.png)
+https://github.com/mcbride249/Credit_Risk_Analysis/blob/main/Images/Deliverable%203/Deliverable%203%20-%20Balanced%20Random%20Forest%20Classifier.png
+
+
+## **Easy Ensemble AdaBoost Classifier**
+
+![Deliverable 3 - Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/92111396/155334981-6f969c33-0480-4ef0-8a5a-057d95431193.png)
+https://github.com/mcbride249/Credit_Risk_Analysis/blob/main/Images/Deliverable%203/Deliverable%203%20-%20Easy%20Ensemble%20AdaBoost%20Classifier.png
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -65,6 +75,7 @@ https://github.com/mcbride249/Credit_Risk_Analysis/blob/main/Images/Deliverable%
 ## **Purpose**
 
 The purpose of this challenge was to use machine learning to assist LendingClub, another peer-to-peer lending services company, to determine credit card risk. This challenge called for us to analyze a credit card dataset using a number of techniques and algorithms including oversampling the data using the “RandomOverSampler” and “SMOTE” algorithms, undersample the data using the “ClusterCentroids” algorithm, and use combinatorial approach of over and undersampling the data using the “SMOTEEN” algorithm. Finally, this project involved comparing two machine learning modules that reduce bias, the “BalancedRandomForestClassifier” and the “EasyEnsembleClassifier”, and evaluating their performance to predict credit risk.
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
