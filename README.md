@@ -24,11 +24,28 @@ The purpose of this project is to assist Fastlending, a peer-to-peer lending ser
 
 ## **Deliverable 1 - Use Resampling Models to Predict Credit Risk**  
 
+**Deliverable 1 - Naive Random Oversampling**
+
+![Deliverable 1 - Naive Random Oversampling](https://user-images.githubusercontent.com/92111396/155240559-e3e3292e-3a47-4ee2-aa74-b7f27616c360.png)
+
+
+**Deliverable 1 - SMOTE Oversampling**
+
+![Deliverable 1 - SMOTE Oversampling](https://user-images.githubusercontent.com/92111396/155240575-27f80bf4-6f4e-4f0f-b593-f4624f649388.png)
+
+
+**Deliverable 1 - Undersampling**
+
+![Deliverable 1 - Undersampling](https://user-images.githubusercontent.com/92111396/155240586-441cd8ea-cbef-4faf-b573-57f2931e46f2.png)
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Deliverable 2 - Use the SMOTEENN algorithm to Predict Credit Risk**
 
+**Deliverable 2 - Combination (Over and Under) Sampling (SMOTEEN)**
+
+![Deliverable 2 - Combination (Over and Under) Sampling (SMOTEEN)](https://user-images.githubusercontent.com/92111396/155240517-350050c0-a6e8-47ca-a2b0-1c5d13c8cbb8.png)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
