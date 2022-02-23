@@ -147,6 +147,8 @@ The purpose of this challenge was to use machine learning to assist LendingClub,
 
 **Definitions and Calculations of Scores**
 
+Accuracy: the difference between its predicted values and actual values.
+
 Precision: Precision = TP/(TP + FP) Precision is a measure of how reliable a positive classification is.
 
 Sensitivity = TP/(TP + FN) Sensitivity is a measure of the probability of a positive test, conditioned on truly having the condition.
